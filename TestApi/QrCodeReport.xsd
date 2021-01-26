@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QrCodeReport" targetNamespace="http://tempuri.org/QrCodeReport.xsd" xmlns:mstns="http://tempuri.org/QrCodeReport.xsd" xmlns="http://tempuri.org/QrCodeReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QrCodeReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="QrCodeReport" msprop:Generator_UserDSName="QrCodeReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtQrCode" msprop:Generator_TableClassName="dtQrCodeDataTable" msprop:Generator_TableVarName="tabledtQrCode" msprop:Generator_TablePropName="dtQrCode" msprop:Generator_RowDeletingName="dtQrCodeRowDeleting" msprop:Generator_RowChangingName="dtQrCodeRowChanging" msprop:Generator_RowEvHandlerName="dtQrCodeRowChangeEventHandler" msprop:Generator_RowDeletedName="dtQrCodeRowDeleted" msprop:Generator_UserTableName="dtQrCode" msprop:Generator_RowChangedName="dtQrCodeRowChanged" msprop:Generator_RowEvArgName="dtQrCodeRowChangeEvent" msprop:Generator_RowClassName="dtQrCodeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QsNo" msprop:Generator_ColumnVarNameInTable="columnQsNo" msprop:Generator_ColumnPropNameInRow="QsNo" msprop:Generator_ColumnPropNameInTable="QsNoColumn" msprop:Generator_UserColumnName="QsNo" type="xs:string" minOccurs="0" />
+              <xs:element name="QRCodeImage" msprop:Generator_ColumnVarNameInTable="columnQRCodeImage" msprop:Generator_ColumnPropNameInRow="QRCodeImage" msprop:Generator_ColumnPropNameInTable="QRCodeImageColumn" msprop:Generator_UserColumnName="QRCodeImage" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
